@@ -2,7 +2,7 @@
 Summary:	Default GStreamer 0.10 decoders
 Name:		gstreamer0.10-decoders
 Version:	1
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2+ # spec file
 Group:		Video
 BuildArch:	noarch
@@ -29,9 +29,6 @@ Suggests:	gstreamer0.10-dts
 # DV file support:
 # http://samples.mplayerhq.hu/DV-raw/voxnews.dv
 Suggests:	gstreamer0.10-dv
-
-# Commercial DVDs:
-Suggests:	libdvdcss
 
 %description
 Virtual package which installs the GStreamer 0.10 input plugins that
