@@ -5,6 +5,7 @@ Version:	1
 Release:	%mkrel 2
 License:	GPLv2+ # spec file
 Group:		Video
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 
 # Please provide URL to sample which does not work without the
