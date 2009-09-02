@@ -2,7 +2,7 @@
 Summary:	Default GStreamer 0.10 decoders
 Name:		gstreamer0.10-decoders
 Version:	1
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPLv2+ # spec file
 Group:		Video
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
