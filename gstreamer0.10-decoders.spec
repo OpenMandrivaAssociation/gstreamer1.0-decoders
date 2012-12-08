@@ -2,7 +2,7 @@
 Summary:	Default GStreamer 0.10 decoders
 Name:		gstreamer0.10-decoders
 Version:	1
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	GPLv2+ # spec file
 Group:		Video
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -101,3 +101,35 @@ GStreamer to open audio files.
 
 %files
 %files audio
+
+
+%changelog
+* Tue May 03 2011 Oden Eriksson <oeriksson@mandriva.com> 1-7mdv2011.0
++ Revision: 664934
+- mass rebuild
+
+* Thu Dec 02 2010 Oden Eriksson <oeriksson@mandriva.com> 1-6mdv2011.0
++ Revision: 605505
+- rebuild
+
+* Wed Mar 17 2010 Oden Eriksson <oeriksson@mandriva.com> 1-5mdv2010.1
++ Revision: 522774
+- rebuilt for 2010.1
+
+* Wed Sep 02 2009 Christophe Fergeau <cfergeau@mandriva.com> 1-4mdv2010.0
++ Revision: 425052
+- rebuild
+
+* Tue Jun 17 2008 Thierry Vignaud <tv@mandriva.org> 1-3mdv2009.0
++ Revision: 221107
+- rebuild
+- fix no-buildroot-tag
+
+* Fri Jan 25 2008 Anssi Hannula <anssi@mandriva.org> 1-2mdv2008.1
++ Revision: 158055
+- drop suggests on libdvdcss
+
+* Sat Jan 19 2008 Anssi Hannula <anssi@mandriva.org> 1-1mdv2008.1
++ Revision: 155015
+- initial Mandriva release
+
