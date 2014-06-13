@@ -1,7 +1,7 @@
 Summary:	Default GStreamer 0.10 decoders
 Name:		gstreamer0.10-decoders
 Version:	1
-Release:	12
+Release:	13
 License:	GPLv2+ # spec file
 Group:		Video
 BuildArch:	noarch
